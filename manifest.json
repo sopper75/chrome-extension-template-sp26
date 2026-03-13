@@ -1,7 +1,7 @@
 {
-  "name": "OS Chrome Extension",
-  "description": "Demo extension for the super awesome open source Chrome extension workshop",
-  "version": "1.0",
+  "name": "EZ Cat Search",
+  "description": "An easy way to de-stress by looking up a cat picture",
+  "version": "1.67",
   "manifest_version": 3,
   "action": {
     "default_popup": "popup.html",
@@ -16,5 +16,5 @@
     "service_worker": "OS-sw.js",
     "type": "module"
   },
-  "permissions": ["alarms"]
+  "permissions": ["alarms", "tabs", "activeTab", "scripting"]
 }
